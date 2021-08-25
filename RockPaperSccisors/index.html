@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Rock Paper Sccisors</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock Paper Sccisors</h1>
+        <h2>Player VS Computer</h2>
+        <h3 id="score">PRESS START</h3>
+        <div class="score-table" id="scoreTable">
+            <span class="user-score" id="user">0</span>
+            <span>:</span>
+            <span class="pc-score" id="pc">0</span>
+        </div>
+        <div class="images">
+            <div class="rock" id="rock" style="color:rgb(240, 240, 71); font-size: 60px;">
+                <i class="fas fa-hand-rock"></i>
+            </div>
+            <div class="paper" id="paper" style="color:rgb(240, 240, 71); font-size: 60px;">
+                <i class="fas fa-hand-paper"></i>
+            </div>
+            <div class="scissors" id="scissors" style="color:rgb(240, 240, 71); font-size: 60px;">
+                <i class="fas fa-hand-scissors"></i>
+            </div>
+        </div>
+    </div>
+    <button id="btn">Start Game</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
