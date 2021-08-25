@@ -1,0 +1,95 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(59, 59, 59, 0.911);
+}
+button {
+    margin: 20px;
+    color: white;
+    background-color: rgb(49, 39, 39);
+    padding: 1em 3em;
+}
+.container {
+    border: 3px solid black;
+    border-radius: 1em;
+    box-shadow: 1px 2px 3px;
+    width: 400px;
+    margin-top:30px;
+    background-color: rgb(49, 39, 39);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+h3 {
+    color: greenyellow;
+    text-align: center;
+}
+.score-table {
+    border: 2px solid rgb(255, 0, 0);
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+span {
+    font-size: 50px;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+.rock,
+.paper,
+.scissors {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    cursor: pointer;
+}
+.rock:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
+}
+.paper:hover {
+    transform: scale(1.1);
+    transition: 50ms ease;
+}
+.scissors:hover {
+    transform: scale(1.1);
+    transition: 300ms ease;
+}
+.rock:active {
+    transform: scale(0.9);
+    border-color: chartreuse;
+    transition: 50ms ease;
+}
+.paper:active {
+    transform: scale(0.9);
+    border-color: chartreuse;
+    transition: 50ms ease;
+}
+.scissors:active {
+    transform: scale(0.9);
+    border-color: chartreuse;
+    transition: 50ms ease;
+}
